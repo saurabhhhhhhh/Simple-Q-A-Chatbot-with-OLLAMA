@@ -22,7 +22,24 @@ This project is a lightweight local chatbot application built using:
  
 `python -m venv venv `
 `venv\Scripts\activate`  # On Windows
-# or
+or
 `source venv/bin/activate`  # On macOS/Linux
+
+# Install required dependencies
+`pip install -r requirements.txt`
+
+# Create a .env file in the project root 
+LANGCHAIN_API_KEY=your_langchain_api_key
+Enable LangChain Tracing (optional):
+LANGCHAIN_TRACING_V2=true
+LANGCHAIN_PROJECT=CHATBOT Q&NA
+
+# Download Required Models via Ollama
+`ollama pull llama3`
+`ollama pull mistral`
+`ollama pull gemma`
+
+# Running the Application
+`streamlit run app.py`
 
 
