@@ -2,5 +2,5 @@ streamlit
 langchain
 langchain-community
 python-dotenv
-langsmith  # Optional: Only needed if you're using LangChain Tracing
+langsmith  
 langchain-core
