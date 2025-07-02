@@ -1,5 +1,5 @@
 streamlit
-langchain-core==0.1.52
+langchain_core
 langchain==0.2.1
 langchain-community
 langsmith
